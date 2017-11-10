@@ -2,10 +2,10 @@
 
 
 [[projects]]
+  branch = "master"
   name = "github.com/chzyer/readline"
   packages = ["."]
-  revision = "62c6fe6193755f722b8b8788aa7357be55a50ff1"
-  version = "v1.4"
+  revision = "a4d5111b617813c5d09df1ba6d76394ed71b1644"
 
 [[projects]]
   branch = "master"
@@ -39,6 +39,12 @@
 
 [[projects]]
   branch = "master"
+  name = "golang.org/x/sys"
+  packages = ["unix"]
+  revision = "1e2299c37cc91a509f1b12369872d27be0ce98a6"
+
+[[projects]]
+  branch = "master"
   name = "golang.org/x/text"
   packages = ["encoding","encoding/charmap","encoding/htmlindex","encoding/internal","encoding/internal/identifier","encoding/japanese","encoding/korean","encoding/simplifiedchinese","encoding/traditionalchinese","encoding/unicode","internal/gen","internal/tag","internal/utf8internal","language","runes","transform","unicode/cldr"]
   revision = "88f656faf3f37f690df1a32515b479415e1a6769"
@@ -46,6 +52,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "c9c839e2a7fecb820a331f41535dd6eb1e2dd70925537872969430d3cd675f60"
+  inputs-digest = "e797d0883970d4edf9264d5c94d64b748f76f6a7fbc8dccc076687efaf6fd083"
   solver-name = "gps-cdcl"
   solver-version = 1
